@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juliardin Jacquinot RAKOTONIAINA — Portfolio BTS SIO</title>
+  <meta name="description" content="Portfolio de Juliardin Jacquinot RAKOTONIAINA, étudiant en BTS SIO 2ème année au Lycée Bamana (Mayotte).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ===== Écran de chargement ===== -->
+  <div id="boot">
+    <div class="loader-top"><span>Portfolio</span><span>BTS SIO · SISR</span></div>
+    <div class="loader-name">Juliardin<br><em>Rakotoniaina</em></div>
+    <div class="loader-count"><span id="boot-count">0</span></div>
+  </div>
+
+  <!-- Curseur personnalisé -->
+  <div class="cursor" id="cursor" aria-hidden="true"><span id="cursor-label"></span></div>
+  <div class="scroll-progress" id="scroll-progress"></div>
+
+  <!-- ===== Navigation ===== -->
+  <header class="nav" id="nav">
+    <a href="#accueil" class="logo">Juliardin<br>Rakotoniaina<sup>©</sup></a>
+    <nav>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#parcours">Parcours</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#synthese">Synthèse E5</a></li>
+        <li><a href="#veille">Veille</a></li>
+        <li><a href="#tutos">Tutos</a></li>
+        <li><a href="#documents">CV & Lettre</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="theme-toggle" aria-label="Changer de thème">◐</button>
+      <button class="icon-btn burger" id="burger" aria-label="Menu">Menu</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Accueil ===== -->
+    <section id="accueil" class="hero">
+      <div class="hero-meta">
+        <span>(Portfolio 2026)</span>
+        <span>Étudiant BTS SIO — option SISR</span>
+        <span>Lycée Bamana, Mayotte</span>
+      </div>
+
+      <h1 class="hero-title" aria-label="Juliardin Rakotoniaina">
+        <span class="line"><span class="word">JULIARDIN</span></span>
+        <span class="line indent"><span class="word serif">Jacquinot</span></span>
+        <span class="line"><span class="word">RAKOTONIAINA</span><span class="hero-dot">.</span></span>
+      </h1>
+
+      <div class="hero-bottom">
+        <p class="hero-desc">
+          Je conçois, installe et dépanne des <strong>systèmes et des réseaux</strong>.
+          Passionné par la virtualisation et le matériel, je recherche un
+          <strong>stage du 5 novembre au 9 décembre 2026</strong>.
+        </p>
+        <div class="hero-btns">
+          <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+          <a href="cv.html" class="btn btn-ghost">Mon CV ↗</a>
+        </div>
+        <a href="#apropos" class="scroll-down" aria-label="Défiler vers le bas">(Scroll) ↓</a>
+      </div>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span>Active Directory</span><span>✺</span><span>GLPI</span><span>✺</span><span>Linux</span><span>✺</span><span>VMware</span><span>✺</span><span>Windows Server</span><span>✺</span><span>Python / Flask</span><span>✺</span><span>LDAP</span><span>✺</span><span>Réseaux</span><span>✺</span>
+          <span>Active Directory</span><span>✺</span><span>GLPI</span><span>✺</span><span>Linux</span><span>✺</span><span>VMware</span><span>✺</span><span>Windows Server</span><span>✺</span><span>Python / Flask</span><span>✺</span><span>LDAP</span><span>✺</span><span>Réseaux</span><span>✺</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== À propos ===== -->
+    <section id="apropos" class="section">
+      <header class="sec-head">
+        <div class="sec-meta"><span class="sec-index">(01)</span><span class="sec-label">À propos</span></div>
+        <h2 class="giant" data-split aria-label="À propos"><span class="line">À PRO</span><span class="line indent">—POS</span></h2>
+      </header>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            Je m'appelle <strong>Juliardin Jacquinot RAKOTONIAINA</strong>, je suis en deuxième année de
+            <strong>BTS Services Informatiques aux Organisations (SIO)</strong>, option <strong>SISR</strong> (Solutions d'Infrastructure, Systèmes et Réseaux), au Lycée Bamana, à Mayotte.
+          </p>
+          <p>
+            Ce qui me plaît dans l'informatique, c'est de <strong>comprendre comment les machines fonctionnent</strong>
+            et de trouver des solutions concrètes : installer et configurer des systèmes, virtualiser,
+            diagnostiquer une panne et la réparer.
+          </p>
+          <p>
+            Pendant mon stage au <strong>Collège de Majicavo Lamir</strong>, j'ai mis en place un poste sous <strong>Linux</strong> faisant tourner une
+            <strong>machine virtuelle Windows 10</strong> en plein écran au démarrage — l'utilisateur travaillait
+            comme sur Windows, sans voir la différence. C'est ce genre de défi qui me motive.
+          </p>
+          <p>
+            En dehors des cours, je suis passionné de <strong>jeux vidéo</strong> et de <strong>matériel PC</strong>
+            (processeurs, cartes graphiques, pilotes…), ce qui m'a appris à optimiser et dépanner des machines.
+            Je regarde aussi beaucoup de vidéos de programmation, je lis des webtoons en anglais et je fais du sport.
+          </p>
+        </div>
+        <div class="about-side reveal">
+          <figure class="about-photo">
+            <div class="frame">
+              <span class="crop tl"></span><span class="crop tr"></span><span class="crop bl"></span><span class="crop br"></span>
+              <div class="frame-inner">
+                <img width="400" height="400" src="assets/img/photo.jpg" alt="Photo de Juliardin Jacquinot RAKOTONIAINA" loading="lazy">
+              </div>
+              <svg class="badge-rotate" viewBox="0 0 120 120" aria-hidden="true">
+                <defs><path id="badge-circle" d="M60,60 m-47,0 a47,47 0 1,1 94,0 a47,47 0 1,1 -94,0"/></defs>
+                <text><textPath href="#badge-circle">BTS SIO · OPTION SISR · MAYOTTE · 2026 ·</textPath></text>
+                <text class="badge-center" x="60" y="66" text-anchor="middle">✺</text>
+              </svg>
+            </div>
+            <figcaption><span>Fig. 01 — Juliardin J. Rakotoniaina</span><span>Mayotte, 976</span></figcaption>
+          </figure>
+        <div class="about-stats">
+          <div class="stat"><span class="stat-num" data-count="2">0</span><span class="stat-label">années de BTS SIO</span></div>
+          <div class="stat"><span class="stat-num" data-count="1">0</span><span class="stat-label">stage réalisé</span></div>
+          <div class="stat"><span class="stat-num" data-count="5">0</span><span class="stat-label">projets présentés</span></div>
+          <div class="stat"><span class="stat-num" data-count="100" data-suffix="%">0</span><span class="stat-label">motivé</span></div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Compétences ===== -->
+    <section id="competences" class="section">
+      <header class="sec-head">
+        <div class="sec-meta"><span class="sec-index">(02)</span><span class="sec-label">Compétences</span></div>
+        <h2 class="giant" data-split aria-label="Compétences"><span class="line">COMPÉ</span><span class="line indent">—TENCES</span></h2>
+      </header>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-icon">🖥️</div>
+          <h3>Systèmes & Virtualisation</h3>
+          <ul class="bars">
+            <li><span>Linux (Debian)</span><div class="bar"><i data-w="75"></i></div></li>
+            <li><span>Windows 10/11 & Windows Server</span><div class="bar"><i data-w="80"></i></div></li>
+            <li><span>VMware (VM, réseaux virtuels)</span><div class="bar"><i data-w="80"></i></div></li>
+          </ul>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">🔐</div>
+          <h3>Services & Annuaire</h3>
+          <ul class="bars">
+            <li><span>Active Directory (AD DS, DNS)</span><div class="bar"><i data-w="75"></i></div></li>
+            <li><span>GLPI 11, LDAP & inventaire</span><div class="bar"><i data-w="75"></i></div></li>
+            <li><span>Apache / PHP (Debian)</span><div class="bar"><i data-w="65"></i></div></li>
+          </ul>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">🔧</div>
+          <h3>Support & Matériel</h3>
+          <ul class="bars">
+            <li><span>Diagnostic de pannes</span><div class="bar"><i data-w="80"></i></div></li>
+            <li><span>Pilotes (AMD, GPU)</span><div class="bar"><i data-w="80"></i></div></li>
+            <li><span>Composants PC</span><div class="bar"><i data-w="75"></i></div></li>
+          </ul>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">🐍</div>
+          <h3>Développement</h3>
+          <ul class="bars">
+            <li><span>Python / Flask</span><div class="bar"><i data-w="75"></i></div></li>
+            <li><span>HTML / CSS / JavaScript</span><div class="bar"><i data-w="75"></i></div></li>
+            <li><span>JSON / Excel / API REST</span><div class="bar"><i data-w="70"></i></div></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="soft-skills reveal">
+        <span class="chip">Autonomie</span>
+        <span class="chip">Curiosité</span>
+        <span class="chip">Sens du service utilisateur</span>
+        <span class="chip">Résolution de problèmes</span>
+        <span class="chip">Rigueur</span>
+        <span class="chip">Travail en équipe</span>
+      </div>
+    </section>
+
+    <!-- ===== Parcours ===== -->
+    <section id="parcours" class="section">
+      <header class="sec-head">
+        <div class="sec-meta"><span class="sec-index">(03)</span><span class="sec-label">Parcours</span></div>
+        <h2 class="giant" data-split aria-label="Parcours"><span class="line">PAR</span><span class="line indent">—COURS</span></h2>
+      </header>
+      <div class="timeline">
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-date">2025 — 2027</span>
+            <h3>BTS SIO — option SISR</h3>
+            <p class="tl-place">Lycée Bamana, Mayotte</p>
+            <p>Actuellement en 2ème année. Administration de systèmes, réseaux, support utilisateur, développement web.</p>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-dot pulse"></div>
+          <div class="tl-card upcoming">
+            <span class="tl-date">5 novembre → 9 décembre 2026</span>
+            <h3>Stage de 2ème année <span class="soon">à venir</span></h3>
+            <p class="tl-place">Entreprise en cours de recherche</p>
+            <p>5 semaines pour mettre en pratique mes compétences en systèmes et réseaux (option SISR).</p>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-date">18 mai → 19 juin 2026 · Stage BTS SIO 1</span>
+            <h3>Stagiaire informatique</h3>
+            <p class="tl-place">Collège de Majicavo Lamir, Mayotte</p>
+            <ul class="tl-list">
+              <li>Conception et développement d'<strong>EduLaunch</strong>, lanceur d'applications éducatives (Python/Flask).</li>
+              <li>Installation d'un poste Linux avec une VM Windows 10 (VMware) lancée automatiquement en plein écran.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-date">2025</span>
+            <h3>Bac STMG</h3>
+            <p class="tl-place">Lycée Younoussa Bamana, Mayotte</p>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-date">2021</span>
+            <h3>Diplôme National du Brevet</h3>
+            <p class="tl-place">Collège de Majicavo Lamir, Mayotte</p>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="sub-title reveal">Certifications <em>&amp;</em> formations</h3>
+      <p class="section-intro small reveal">Formations gratuites que je prépare pour compléter mon BTS. Le statut est mis à jour au fur et à mesure.</p>
+      <div class="certs">
+        <a class="cert reveal" href="https://pix.fr/" target="_blank" rel="noopener">
+          <span class="cert-status todo-status">Objectif</span>
+          <span class="cert-icon">🧩</span>
+          <h4>Certification Pix</h4>
+          <p>Certification des compétences numériques <strong>reconnue par l'État</strong>, gratuite.</p>
+          <span class="cert-org">pix.fr ↗</span>
+        </a>
+        <a class="cert reveal" href="https://www.netacad.com/courses/introduction-to-cybersecurity?courseLang=fr-FR" target="_blank" rel="noopener">
+          <span class="cert-status todo-status">Objectif</span>
+          <span class="cert-icon">🛡️</span>
+          <h4>Introduction à la cybersécurité</h4>
+          <p>Cours en ligne gratuit de la Cisco Networking Academy, disponible en français.</p>
+          <span class="cert-org">Cisco NetAcad ↗</span>
+        </a>
+        <a class="cert reveal" href="https://www.netacad.com/courses/networking-basics" target="_blank" rel="noopener">
+          <span class="cert-status todo-status">Objectif</span>
+          <span class="cert-icon">🌐</span>
+          <h4>Networking Basics</h4>
+          <p>Cours gratuit sur les bases des réseaux : adressage IP, protocoles, équipements.</p>
+          <span class="cert-org">Cisco NetAcad ↗</span>
+        </a>
+        <a class="cert reveal" href="https://secnumacademie.gouv.fr/" target="_blank" rel="noopener">
+          <span class="cert-status wait-status">Réouverture 2026</span>
+          <span class="cert-icon">🇫🇷</span>
+          <h4>SecNumacadémie</h4>
+          <p>MOOC cybersécurité de l'ANSSI, actuellement en refonte, à suivre dès sa réouverture.</p>
+          <span class="cert-org">ANSSI ↗</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== Projets ===== -->
+    <section id="projets" class="section">
+      <header class="sec-head">
+        <div class="sec-meta"><span class="sec-index">(04)</span><span class="sec-label">Projets</span></div>
+        <h2 class="giant" data-split aria-label="Projets"><span class="line">PRO</span><span class="line indent">—JETS</span></h2>
+      </header>
+
+      <div class="filters reveal">
+        <button class="filter active" data-filter="all">Tous</button>
+        <button class="filter" data-filter="systeme">Système</button>
+        <button class="filter" data-filter="support">Support</button>
+        <button class="filter" data-filter="web">Développement</button>
+      </div>
+
+      <div class="projects-grid">
+        <article data-cursor="Voir" class="project-card featured reveal" data-cat="systeme support" data-project="glpi">
+          <div class="project-shot">
+            <img width="720" height="375" src="assets/img/glpi/sync.jpg" alt="Synchronisation des utilisateurs AD dans GLPI" loading="lazy">
+            <span class="ribbon">🛠️ Atelier pro SISR</span>
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <span class="project-emoji">🏢🔐</span>
+              <span class="badge">Sept. – oct. 2026</span>
+            </div>
+            <h3>OpenShowroom — Active Directory, GLPI 11 & LDAP</h3>
+            <p>Déploiement complet d'un domaine Active Directory, d'un GLPI 11 sur Debian relié à l'annuaire en LDAP, des habilitations, de l'inventaire automatique avec GLPI Agent et de la gestion des tickets. Chaque panne a été diagnostiquée, chaque fonction testée et documentée.</p>
+            <ul class="mini-stats">
+              <li><b>3</b> machines virtuelles</li>
+              <li><b>16/16</b> tests validés</li>
+              <li><b>6</b> incidents résolus</li>
+              <li><b>3</b> documents livrés</li>
+            </ul>
+            <div class="tags"><span>Windows Server 2022</span><span>AD DS / DNS</span><span>Debian 13</span><span>GLPI 11</span><span>LDAP</span><span>Apache / PHP</span><span>GLPI Agent</span></div>
+            <button class="btn-link">Voir le projet en détail →</button>
+          </div>
+        </article>
+
+        <article data-cursor="Voir" class="project-card reveal" data-cat="systeme" data-project="vm">
+          <div class="project-top">
+            <span class="project-emoji">🐧➜🪟</span>
+            <span class="badge">Stage · Collège Majicavo</span>
+          </div>
+          <h3>Poste Linux avec VM Windows 10 en plein écran</h3>
+          <p>Un PC sous Linux qui lance automatiquement une VM Windows 10 en plein écran : l'utilisateur a l'impression d'être sous Windows.</p>
+          <div class="tags"><span>Linux</span><span>VMware</span><span>Windows 10</span><span>Autostart</span></div>
+          <button class="btn-link">Voir le détail →</button>
+        </article>
+
+        <article data-cursor="Voir" class="project-card featured reveal" data-cat="web systeme" data-project="launcher">
+          <div class="project-shot">
+            <img width="1100" height="666" src="assets/img/edulaunch/accueil.jpg" alt="Écran d'accueil d'EduLaunch" loading="lazy">
+            <span class="ribbon">⭐ Projet phare</span>
+          </div>
+          <div class="project-body">
+            <div class="project-top">
+              <span class="project-emoji">🎓🚀</span>
+              <span class="badge">Stage · Collège Majicavo</span>
+            </div>
+            <h3>EduLaunch — lanceur d'applications éducatives</h3>
+            <p>Une interface qui remplace le bureau Windows dans les établissements : élèves, professeurs et administrateurs lancent leurs logiciels scolaires en un clic, classés par matière. Serveur Python/Flask local, fonctionne sans internet.</p>
+            <ul class="mini-stats">
+              <li><b>~2 400</b> lignes Python</li>
+              <li><b>31</b> routes API</li>
+              <li><b>3</b> espaces sécurisés</li>
+              <li><b>v5</b> versions</li>
+            </ul>
+            <div class="tags"><span>Python</span><span>Flask</span><span>HTML/CSS/JS</span><span>JSON</span><span>Excel (openpyxl)</span><span>Registre Windows</span></div>
+            <button class="btn-link">Voir le projet en détail →</button>
+          </div>
+        </article>
+
+        <article data-cursor="Voir" class="project-card reveal" data-cat="support" data-project="depannage">
+          <div class="project-top">
+            <span class="project-emoji">🎮🔧</span>
+            <span class="badge">Dépannage</span>
+          </div>
+          <h3>Dépannage : jeu qui ne se lance plus (GPU AMD)</h3>
+          <p>Diagnostic et résolution d'un jeu (Batman Arkham Knight) qui refusait de démarrer : pilotes, options de lancement et réglages graphiques.</p>
+          <div class="tags"><span>AMD Adrenalin</span><span>Pilotes</span><span>DirectX 11</span><span>Steam</span></div>
+          <button class="btn-link">Voir le détail →</button>
+        </article>
+
+        <article data-cursor="Voir" class="project-card reveal" data-cat="web" data-project="portfolio">
+          <div class="project-top">
+            <span class="project-emoji">💻✨</span>
+            <span class="badge">Web</span>
+          </div>
+          <h3>Ce portfolio</h3>
+          <p>Site personnel en HTML, CSS et JavaScript pur, style magazine : défilement fluide, curseur personnalisé, CV et lettre imprimables.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>VS Code</span></div>
+          <button class="btn-link">Voir le détail →</button>
+        </article>
+
+        <article class="project-card add-card reveal" data-cat="systeme support web">
+          <div class="add-plus">+</div>
+          <p><strong>Prochain projet</strong><br><small>Stage du 5 novembre au 9 décembre 2026 — à venir</small></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Galerie horizontale (défilement façon magazine) ===== -->
+    <section class="hscroll" id="galerie" aria-label="Galerie de mes projets">
+      <div class="hscroll-sticky">
+        <div class="hscroll-track">
+          <div class="h-intro">
+            <span class="sec-index">(Coulisses)</span>
+            <h2 class="h-title">EN<br><em>images</em></h2>
+            <p>Captures réelles de mes projets : EduLaunch et OpenShowroom. Cliquez sur une image pour ouvrir la fiche du projet.</p>
+            <span class="h-hint">Défilez <span>→</span></span>
+          </div>
+          <figure class="h-item h-tall" data-open="launcher" data-cursor="Voir">
+            <div class="h-img"><img src="assets/img/edulaunch/accueil.jpg" width="1100" height="666" alt="EduLaunch — accueil élève" loading="lazy"></div>
+            <figcaption><span>01</span>EduLaunch — accueil élève</figcaption>
+          </figure>
+          <figure class="h-item h-mid" data-open="glpi" data-cursor="Voir">
+            <div class="h-img"><img src="assets/img/glpi/ad-utilisateurs.jpg" width="927" height="703" alt="Utilisateurs et groupes AD" loading="lazy"></div>
+            <figcaption><span>02</span>Utilisateurs et groupes AD</figcaption>
+          </figure>
+          <figure class="h-item h-low" data-open="glpi" data-cursor="Voir">
+            <div class="h-img"><img src="assets/img/glpi/sync.jpg" width="720" height="375" alt="Synchronisation LDAP réussie" loading="lazy"></div>
+            <figcaption><span>03</span>Synchronisation LDAP réussie</figcaption>
+          </figure>
+          <figure class="h-item h-mid" data-open="launcher" data-cursor="Voir">
+            <div class="h-img"><img src="assets/img/edulaunch/admin.jpg" width="1100" height="666" alt="EduLaunch — mode administrateur" loading="lazy"></div>
+            <figcaption><span>04</span>EduLaunch — mode administrateur</figcaption>
+          </figure>
+          <figure class="h-item h-tall" data-open="glpi" data-cursor="Voir">
+            <div class="h-img"><img src="assets/img/glpi/profil-technicien.jpg" width="1000" height="893" alt="GLPI — profil Technicien" loading="lazy"></div>
+            <figcaption><span>05</span>GLPI — profil Technicien</figcaption>
+          </figure>
+          <figure class="h-item h-low" data-open="glpi" data-cursor="Voir">
+            <div class="h-img"><img src="assets/img/glpi/domaine-uac.jpg" width="823" height="849" alt="Poste joint au domaine SHOWROOM" loading="lazy"></div>
+            <figcaption><span>06</span>Poste joint au domaine SHOWROOM</figcaption>
+          </figure>
+          <figure class="h-item h-mid" data-open="glpi" data-cursor="Voir">
+            <div class="h-img"><img src="assets/img/glpi/preuve-inventaire.jpg" width="1600" height="1382" alt="Inventaire GLPI Agent" loading="lazy"></div>
+            <figcaption><span>07</span>Inventaire GLPI Agent</figcaption>
+          </figure>
+          <figure class="h-item h-mid" data-open="launcher" data-cursor="Voir">
+            <div class="h-img"><img src="assets/img/edulaunch/categorie.jpg" width="1100" height="666" alt="EduLaunch — applications par matière" loading="lazy"></div>
+            <figcaption><span>08</span>EduLaunch — applications par matière</figcaption>
+          </figure>
+          <figure class="h-item h-low" data-open="glpi" data-cursor="Voir">
+            <div class="h-img"><img src="assets/img/glpi/portail-accueil.jpg" width="1300" height="895" alt="Portail self-service GLPI" loading="lazy"></div>
+            <figcaption><span>09</span>Portail self-service GLPI</figcaption>
+          </figure>
+          <div class="h-outro">
+            <p>Toutes les preuves sont dans les fiches projets.</p>
+            <a href="#projets" class="btn btn-ghost">Revoir les projets ↑</a>
+          </div>
+        </div>
+        <div class="hscroll-progress"><i></i></div>
+      </div>
+    </section>
+
+    <!-- ===== Tableau de synthèse E5 ===== -->
+    <section id="synthese" class="section">
+      <header class="sec-head">
+        <div class="sec-meta"><span class="sec-index">(05)</span><span class="sec-label">Tableau de synthèse E5</span></div>
+        <h2 class="giant" data-split aria-label="Tableau de synthèse E5"><span class="line">SYN</span><span class="line indent">—THÈSE</span></h2>
+      </header>
+      <p class="section-intro reveal">
+        Correspondance entre mes réalisations et les <strong>6 compétences du bloc 1</strong> du BTS SIO
+        (<em>Support et mise à disposition de services informatiques</em>), évaluées à l'épreuve <strong>E5</strong>.
+        Clique sur une réalisation pour voir le détail.
+      </p>
+      <p class="synth-hint">↔ Fais glisser le tableau sur le côté</p>
+      <div class="synth-wrap reveal">
+        <table class="synth">
+          <thead>
+            <tr><th class="corner">Réalisations</th><th><span>Gérer le patrimoine informatique</span></th><th><span>Répondre aux incidents et aux demandes d'assistance et d'évolution</span></th><th><span>Développer la présence en ligne de l'organisation</span></th><th><span>Travailler en mode projet</span></th><th><span>Mettre à disposition des utilisateurs un service informatique</span></th><th><span>Organiser son développement professionnel</span></th></tr>
+          </thead>
+          <tbody>
+              <tr>
+                <th scope="row"><button class="synth-link" data-open="glpi">OpenShowroom — AD, GLPI 11 & LDAP</button><small>Atelier pro · sept. – oct. 2026</small></th>
+                <td class="yes" title="Compétence mobilisée">✔</td><td class="yes" title="Compétence mobilisée">✔</td><td></td><td class="yes" title="Compétence mobilisée">✔</td><td class="yes" title="Compétence mobilisée">✔</td><td class="yes" title="Compétence mobilisée">✔</td>
+              </tr>
+              <tr>
+                <th scope="row"><button class="synth-link" data-open="launcher">EduLaunch — lanceur d'applications</button><small>Stage · mai – juin 2026</small></th>
+                <td class="yes" title="Compétence mobilisée">✔</td><td class="yes" title="Compétence mobilisée">✔</td><td></td><td class="yes" title="Compétence mobilisée">✔</td><td class="yes" title="Compétence mobilisée">✔</td><td class="yes" title="Compétence mobilisée">✔</td>
+              </tr>
+              <tr>
+                <th scope="row"><button class="synth-link" data-open="vm">Poste Linux + VM Windows 10</button><small>Stage · mai – juin 2026</small></th>
+                <td class="yes" title="Compétence mobilisée">✔</td><td></td><td></td><td></td><td class="yes" title="Compétence mobilisée">✔</td><td></td>
+              </tr>
+              <tr>
+                <th scope="row"><button class="synth-link" data-open="depannage">Dépannage : jeu qui ne se lance plus</button><small>Projet personnel</small></th>
+                <td></td><td class="yes" title="Compétence mobilisée">✔</td><td></td><td></td><td></td><td class="yes" title="Compétence mobilisée">✔</td>
+              </tr>
+              <tr>
+                <th scope="row"><button class="synth-link" data-open="portfolio">Ce portfolio</button><small>Projet personnel</small></th>
+                <td></td><td></td><td class="yes" title="Compétence mobilisée">✔</td><td class="yes" title="Compétence mobilisée">✔</td><td></td><td class="yes" title="Compétence mobilisée">✔</td>
+              </tr>
+          </tbody>
+          <tfoot>
+            <tr><th scope="row">Nombre de réalisations</th><td>3</td><td>3</td><td>1</td><td>3</td><td>3</td><td>4</td></tr>
+          </tfoot>
+        </table>
+      </div>
+      <p class="synth-note reveal">La présence en ligne sera renforcée par la mise en ligne de ce portfolio (GitHub Pages) et les projets de mon stage de novembre – décembre 2026.</p>
+    </section>
+
+    <!-- ===== Veille technologique ===== -->
+    <section id="veille" class="section">
+      <header class="sec-head">
+        <div class="sec-meta"><span class="sec-index">(06)</span><span class="sec-label">Veille technologique</span></div>
+        <h2 class="giant" data-split aria-label="Veille technologique"><span class="line">VEILLE</span><span class="line indent">—TECHNO</span></h2>
+      </header>
+
+      <div class="veille-head reveal">
+        <div class="veille-topic">
+          <span class="veille-label">Mon sujet</span>
+          <h3>La sécurité de <em>l'Active Directory</em></h3>
+          <p>
+            L'Active Directory est le cœur de la plupart des réseaux d'entreprise : il gère les comptes, les groupes et les droits.
+            C'est donc la <strong>cible n°1 des attaquants</strong> : une fois l'AD compromis, tout le système d'information l'est.
+            J'ai choisi ce sujet car je l'ai déployé moi-même dans le projet <button class="inline-link" data-open="glpi">OpenShowroom</button>,
+            et je veux comprendre comment le protéger.
+          </p>
+        </div>
+        <div class="veille-method">
+          <span class="veille-label">Ma méthode</span>
+          <ul>
+            <li><b>Sources</b> ANSSI & CERT-FR, Microsoft, IT-Connect, Le Monde Informatique</li>
+            <li><b>Outils</b> flux RSS (Feedly), alertes Google sur « Active Directory sécurité »</li>
+            <li><b>Rythme</b> lecture chaque semaine, fiche de synthèse chaque mois</li>
+            <li><b>Tri</b> source officielle ou reconnue, date récente, lien avec mon travail</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="veille-timeline">
+        <article class="veille-item reveal">
+          <div class="veille-date">18 oct. 2023</div>
+          <div class="veille-card">
+            <span class="veille-src">ANSSI</span>
+            <h4>Guide : administration sécurisée des SI reposant sur AD</h4>
+            <p>Selon l'ANSSI, les compromissions d'AD viennent surtout de mauvaises pratiques d'administration et d'un cloisonnement insuffisant. Le guide détaille le <strong>modèle en tiers</strong> (tier 0, 1, 2) et donne <strong>89 recommandations</strong>, dont les risques des protocoles NTLM et Kerberos.</p>
+            <p class="veille-me">➜ Pour moi : dans OpenShowroom, j'ai créé un <strong>compte de service dédié</strong> à GLPI plutôt que d'utiliser un compte administrateur. C'est une première application de ce principe de moindre privilège.</p>
+            <a href="https://messervices.cyber.gouv.fr/guides/recommandations-pour-ladministration-securisee-des-si-reposant-sur-ad" target="_blank" rel="noopener">Lire le guide ↗</a>
+            <a href="https://www.it-connect.fr/un-nouveau-guide-de-lanssi-sur-la-securisation-de-lactive-directory-par-le-cloisonnement/" target="_blank" rel="noopener">Résumé IT-Connect ↗</a>
+          </div>
+        </article>
+
+        <article class="veille-item reveal">
+          <div class="veille-date">29 janv. 2026</div>
+          <div class="veille-card">
+            <span class="veille-src">Microsoft</span>
+            <h4>NTLM bientôt désactivé par défaut dans Windows</h4>
+            <p>Microsoft annonce la fin progressive du vieux protocole d'authentification <strong>NTLM</strong>, remplacé par <strong>Kerberos</strong>, en 3 phases : audit des usages (2025), solutions techniques (2ᵉ semestre 2026), puis désactivation par défaut dans les prochaines versions de Windows.</p>
+            <p class="veille-me">➜ Pour moi : un administrateur doit dès maintenant repérer les applications qui utilisent encore NTLM (journaux d'audit de Windows Server 2025) pour éviter les pannes le jour du changement.</p>
+            <a href="https://techcommunity.microsoft.com/blog/windows-itpro-blog/advancing-windows-security-disabling-ntlm-by-default/4489526" target="_blank" rel="noopener">Annonce Microsoft ↗</a>
+            <a href="https://www.it-connect.fr/fin-du-protocole-ntlm-microsoft-devoile-son-plan-dattaque-en-3-phases/" target="_blank" rel="noopener">Article IT-Connect ↗</a>
+          </div>
+        </article>
+
+        <article class="veille-item reveal">
+          <div class="veille-date">11 mars 2026</div>
+          <div class="veille-card">
+            <span class="veille-src">ANSSI · CERT-FR</span>
+            <h4>Panorama de la cybermenace 2025</h4>
+            <p>En 2025, l'ANSSI a traité <strong>3 586 événements de sécurité</strong>, dont <strong>1 366 incidents</strong>. Le secteur le plus touché est <strong>l'éducation et la recherche (34 %)</strong>, devant les ministères et collectivités (24 %). Les attaquants utilisent moins les rançongiciels et font de plus en plus de <strong>vol de données</strong>.</p>
+            <p class="veille-me">➜ Pour moi : les établissements scolaires, comme ceux où je travaille, sont les premières cibles. Sécuriser leur annuaire est une priorité.</p>
+            <a href="https://cyber.gouv.fr/actualites/panorama-de-la-cybermenace-2025/" target="_blank" rel="noopener">Article ANSSI ↗</a>
+            <a href="https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-002/" target="_blank" rel="noopener">Rapport CERT-FR ↗</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="veille-bilan reveal">
+        <h4>Ce que je retiens</h4>
+        <p>Sécuriser un Active Directory, ce n'est pas seulement mettre un pare-feu : il faut <strong>cloisonner l'administration</strong>, <strong>limiter les droits</strong> de chaque compte, <strong>abandonner les vieux protocoles</strong> comme NTLM et <strong>surveiller les journaux</strong>. Ce sont des réflexes que je veux appliquer lors de mon stage de novembre.</p>
+      </div>
+    </section>
+
+    <!-- ===== Tutoriels & ressources ===== -->
+    <section id="tutos" class="section">
+      <header class="sec-head">
+        <div class="sec-meta"><span class="sec-index">(07)</span><span class="sec-label">Tutoriels &amp; ressources</span></div>
+        <h2 class="giant" data-split aria-label="Tutoriels et ressources"><span class="line">TUTOS &amp;</span><span class="line indent">—RESSOURCES</span></h2>
+      </header>
+      <p class="section-intro reveal">
+        Les tutoriels et documentations de référence en lien avec mes projets : <strong>IT-Connect</strong>,
+        <strong>Microsoft Learn</strong>, la <strong>documentation officielle de GLPI</strong> et d'autres sites spécialisés.
+        Pour chaque ressource, cliquez sur <strong>« Mon analyse »</strong> : ce que j'en retiens et le lien avec mon propre travail.
+      </p>
+      <div class="tfilters reveal"><button class="tfilter active" data-tfilter="all">Tout (13)</button><button class="tfilter" data-tfilter="glpi">GLPI</button><button class="tfilter" data-tfilter="ldap">LDAP / AD</button><button class="tfilter" data-tfilter="inventaire">Inventaire</button><button class="tfilter" data-tfilter="ad">Active Directory</button><button class="tfilter" data-tfilter="securite">Sécurité</button><button class="tfilter" data-tfilter="reseau">Réseau & virtualisation</button></div>
+      <div class="tcar reveal">
+        <div class="tcar-head">
+          <span class="tcar-mode"><span class="tcar-dot"></span>↔ Auto + manuel</span>
+          <div class="tcar-nav">
+            <button class="tcar-btn" id="tcar-prev" aria-label="Tutoriel précédent">‹</button>
+            <button class="tcar-btn" id="tcar-next" aria-label="Tutoriel suivant">›</button>
+          </div>
+        </div>
+        <div class="tcar-track" id="tcar-track" data-cursor="Glisser">
+          <article class="tcard" data-tcat="glpi">
+            <div class="tcard-img">
+              <img src="assets/img/glpi/vhost.jpg" width="933" height="629" alt="" loading="lazy">
+              <span class="tcard-cat">GLPI</span>
+              <span class="tcard-note">Capture de mon projet</span>
+            </div>
+            <div class="tcard-body">
+              <span class="tcard-date"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1.5" y="2.5" width="13" height="12" rx="1.5"/><path d="M1.5 6h13M5 1v3M11 1v3"/></svg>4 déc. 2025</span>
+              <h3 class="tcard-title">Installer GLPI 11 sur Debian 13, pas à pas</h3>
+              <p class="tcard-desc">Apache 2, PHP 8.4 (PHP-FPM) et MariaDB, dossiers sensibles hors de la racine web et VirtualHost dédié.</p>
+              <span class="tcard-src">Source : <a href="https://www.it-connect.fr/installation-pas-a-pas-de-glpi-10-sur-debian-12/" target="_blank" rel="noopener">IT-Connect ↗</a></span>
+              <button class="tcard-btn" data-tuto="t1"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3.5C6.5 2.3 4 2 1.5 2.5v10C4 12 6.5 12.3 8 13.5c1.5-1.2 4-1.5 6.5-1V2.5C12 2 9.5 2.3 8 3.5zM8 3.5v10"/></svg>Mon analyse <span>›</span></button>
+            </div>
+          </article>
+          <article class="tcard" data-tcat="glpi">
+            <div class="tcard-img">
+              <img src="assets/img/glpi/portail-connexion.jpg" width="1300" height="901" alt="" loading="lazy">
+              <span class="tcard-cat">GLPI</span>
+              <span class="tcard-note">Capture de mon projet</span>
+            </div>
+            <div class="tcard-body">
+              <span class="tcard-date"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1.5" y="2.5" width="13" height="12" rx="1.5"/><path d="M1.5 6h13M5 1v3M11 1v3"/></svg>Documentation officielle</span>
+              <h3 class="tcard-title">Install GLPI — documentation d&#x27;installation</h3>
+              <p class="tcard-desc">Prérequis, droits sur files/ et config/, assistant d&#x27;installation web ou en ligne de commande.</p>
+              <span class="tcard-src">Source : <a href="https://glpi-install.readthedocs.io/en/latest/install/" target="_blank" rel="noopener">Doc officielle GLPI ↗</a></span>
+              <button class="tcard-btn" data-tuto="t2"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3.5C6.5 2.3 4 2 1.5 2.5v10C4 12 6.5 12.3 8 13.5c1.5-1.2 4-1.5 6.5-1V2.5C12 2 9.5 2.3 8 3.5zM8 3.5v10"/></svg>Mon analyse <span>›</span></button>
+            </div>
+          </article>
+          <article class="tcard" data-tcat="glpi">
+            <div class="tcard-img">
+              <img src="assets/img/glpi/sync.jpg" width="720" height="375" alt="" loading="lazy">
+              <span class="tcard-cat">GLPI</span>
+              <span class="tcard-note">Capture de mon projet</span>
+            </div>
+            <div class="tcard-body">
+              <span class="tcard-date"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1.5" y="2.5" width="13" height="12" rx="1.5"/><path d="M1.5 6h13M5 1v3M11 1v3"/></svg>Documentation officielle</span>
+              <h3 class="tcard-title">Command line tools — bin/console</h3>
+              <p class="tcard-desc">Les commandes de la console GLPI, dont glpi:ldap:synchronize_users avec ses filtres et options.</p>
+              <span class="tcard-src">Source : <a href="https://glpi-install.readthedocs.io/en/latest/command-line.html" target="_blank" rel="noopener">Doc officielle GLPI ↗</a></span>
+              <button class="tcard-btn" data-tuto="t3"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3.5C6.5 2.3 4 2 1.5 2.5v10C4 12 6.5 12.3 8 13.5c1.5-1.2 4-1.5 6.5-1V2.5C12 2 9.5 2.3 8 3.5zM8 3.5v10"/></svg>Mon analyse <span>›</span></button>
+            </div>
+          </article>
+          <article class="tcard" data-tcat="ldap">
+            <div class="tcard-img">
+              <img src="assets/img/glpi/test-bind.jpg" width="1100" height="862" alt="" loading="lazy">
+              <span class="tcard-cat">LDAP / AD</span>
+              <span class="tcard-note">Capture de mon projet</span>
+            </div>
+            <div class="tcard-body">
+              <span class="tcard-date"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1.5" y="2.5" width="13" height="12" rx="1.5"/><path d="M1.5 6h13M5 1v3M11 1v3"/></svg>27 mars 2024</span>
+              <h3 class="tcard-title">GLPI : configurer l&#x27;authentification LDAP via l&#x27;Active Directory</h3>
+              <p class="tcard-desc">Extension PHP LDAP, compte de service à faibles privilèges, test de connexion et import des utilisateurs.</p>
+              <span class="tcard-src">Source : <a href="https://www.it-connect.fr/tuto-glpi-configurer-authentification-active-directory/" target="_blank" rel="noopener">IT-Connect ↗</a></span>
+              <button class="tcard-btn" data-tuto="t4"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3.5C6.5 2.3 4 2 1.5 2.5v10C4 12 6.5 12.3 8 13.5c1.5-1.2 4-1.5 6.5-1V2.5C12 2 9.5 2.3 8 3.5zM8 3.5v10"/></svg>Mon analyse <span>›</span></button>
+            </div>
+          </article>
+          <article class="tcard" data-tcat="ldap">
+            <div class="tcard-img">
+              <img src="assets/img/glpi/dn-corrige.jpg" width="1100" height="857" alt="" loading="lazy">
+              <span class="tcard-cat">LDAP / AD</span>
+              <span class="tcard-note">Capture de mon projet</span>
+            </div>
+            <div class="tcard-body">
+              <span class="tcard-date"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1.5" y="2.5" width="13" height="12" rx="1.5"/><path d="M1.5 6h13M5 1v3M11 1v3"/></svg>8 août 2025</span>
+              <h3 class="tcard-title">GLPI 11 : liaison avec Active Directory pour authentifier les utilisateurs</h3>
+              <p class="tcard-desc">Version GLPI 11 : compte de service, import, LDAPS pour chiffrer la connexion et synchronisation planifiée.</p>
+              <span class="tcard-src">Source : <a href="https://rdr-it.com/glpi-11-liaison-avec-active-directory-pour-authentifier-les-utilisateurs/" target="_blank" rel="noopener">RDR-IT ↗</a></span>
+              <button class="tcard-btn" data-tuto="t5"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3.5C6.5 2.3 4 2 1.5 2.5v10C4 12 6.5 12.3 8 13.5c1.5-1.2 4-1.5 6.5-1V2.5C12 2 9.5 2.3 8 3.5zM8 3.5v10"/></svg>Mon analyse <span>›</span></button>
+            </div>
+          </article>
+          <article class="tcard" data-tcat="inventaire">
+            <div class="tcard-img">
+              <img src="assets/img/glpi/agent.jpg" width="1035" height="677" alt="" loading="lazy">
+              <span class="tcard-cat">Inventaire</span>
+              <span class="tcard-note">Capture de mon projet</span>
+            </div>
+            <div class="tcard-body">
+              <span class="tcard-date"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1.5" y="2.5" width="13" height="12" rx="1.5"/><path d="M1.5 6h13M5 1v3M11 1v3"/></svg>30 nov. 2023</span>
+              <h3 class="tcard-title">Déployer l&#x27;agent GLPI sur les postes Windows par GPO</h3>
+              <p class="tcard-desc">Installation du MSI par stratégie de groupe, URL du serveur et tag en registre, inventaire forcé pour vérifier.</p>
+              <span class="tcard-src">Source : <a href="https://www.it-connect.fr/tuto-installer-configurer-gpo-agent-glpi-windows/" target="_blank" rel="noopener">IT-Connect ↗</a></span>
+              <button class="tcard-btn" data-tuto="t6"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3.5C6.5 2.3 4 2 1.5 2.5v10C4 12 6.5 12.3 8 13.5c1.5-1.2 4-1.5 6.5-1V2.5C12 2 9.5 2.3 8 3.5zM8 3.5v10"/></svg>Mon analyse <span>›</span></button>
+            </div>
+          </article>
+          <article class="tcard" data-tcat="inventaire">
+            <div class="tcard-img">
+              <img src="assets/img/glpi/preuve-inventaire.jpg" width="1600" height="1382" alt="" loading="lazy">
+              <span class="tcard-cat">Inventaire</span>
+              <span class="tcard-note">Capture de mon projet</span>
+            </div>
+            <div class="tcard-body">
+              <span class="tcard-date"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1.5" y="2.5" width="13" height="12" rx="1.5"/><path d="M1.5 6h13M5 1v3M11 1v3"/></svg>FAQ officielle</span>
+              <h3 class="tcard-title">FAQ — Agent GLPI</h3>
+              <p class="tcard-desc">Téléchargement, systèmes supportés, fichiers de configuration et comment forcer un inventaire.</p>
+              <span class="tcard-src">Source : <a href="https://help.glpi-project.org/faq/fr/glpi/glpi-agent" target="_blank" rel="noopener">GLPI Project ↗</a></span>
+              <button class="tcard-btn" data-tuto="t7"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3.5C6.5 2.3 4 2 1.5 2.5v10C4 12 6.5 12.3 8 13.5c1.5-1.2 4-1.5 6.5-1V2.5C12 2 9.5 2.3 8 3.5zM8 3.5v10"/></svg>Mon analyse <span>›</span></button>
+            </div>
+          </article>
+          <article class="tcard" data-tcat="ad">
+            <div class="tcard-img">
+              <img src="assets/img/glpi/ad-groupes.jpg" width="870" height="713" alt="" loading="lazy">
+              <span class="tcard-cat">Active Directory</span>
+              <span class="tcard-note">Capture de mon projet</span>
+            </div>
+            <div class="tcard-body">
+              <span class="tcard-date"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1.5" y="2.5" width="13" height="12" rx="1.5"/><path d="M1.5 6h13M5 1v3M11 1v3"/></svg>Mis à jour le 16 août 2025</span>
+              <h3 class="tcard-title">Installer les services de domaine Active Directory</h3>
+              <p class="tcard-desc">Installer AD DS avec PowerShell ou le Gestionnaire de serveur : nouvelle forêt, domaine, contrôleur supplémentaire.</p>
+              <span class="tcard-src">Source : <a href="https://learn.microsoft.com/fr-fr/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-" target="_blank" rel="noopener">Microsoft Learn ↗</a></span>
+              <button class="tcard-btn" data-tuto="t8"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3.5C6.5 2.3 4 2 1.5 2.5v10C4 12 6.5 12.3 8 13.5c1.5-1.2 4-1.5 6.5-1V2.5C12 2 9.5 2.3 8 3.5zM8 3.5v10"/></svg>Mon analyse <span>›</span></button>
+            </div>
+          </article>
+          <article class="tcard" data-tcat="ad">
+            <div class="tcard-img">
+              <img src="assets/img/glpi/domaine-uac.jpg" width="823" height="849" alt="" loading="lazy">
+              <span class="tcard-cat">Active Directory</span>
+              <span class="tcard-note">Capture de mon projet</span>
+            </div>
+            <div class="tcard-body">
+              <span class="tcard-date"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1.5" y="2.5" width="13" height="12" rx="1.5"/><path d="M1.5 6h13M5 1v3M11 1v3"/></svg>Mis à jour le 16 août 2025</span>
+              <h3 class="tcard-title">Joindre un ordinateur à un domaine</h3>
+              <p class="tcard-desc">Jonction par les Paramètres, le Panneau de configuration ou netdom join, et réparation d&#x27;une relation d&#x27;approbation.</p>
+              <span class="tcard-src">Source : <a href="https://learn.microsoft.com/fr-fr/windows-server/identity/ad-ds/manage/join-computer-to-domain" target="_blank" rel="noopener">Microsoft Learn ↗</a></span>
+              <button class="tcard-btn" data-tuto="t9"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3.5C6.5 2.3 4 2 1.5 2.5v10C4 12 6.5 12.3 8 13.5c1.5-1.2 4-1.5 6.5-1V2.5C12 2 9.5 2.3 8 3.5zM8 3.5v10"/></svg>Mon analyse <span>›</span></button>
+            </div>
+          </article>
+          <article class="tcard" data-tcat="securite">
+            <div class="tcard-img">
+              <img src="assets/img/tutos/securite-domaine.jpg" width="1200" height="800" alt="" loading="lazy">
+              <span class="tcard-cat">Sécurité</span>
+              <span class="tcard-note">Illustration</span>
+            </div>
+            <div class="tcard-body">
+              <span class="tcard-date"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1.5" y="2.5" width="13" height="12" rx="1.5"/><path d="M1.5 6h13M5 1v3M11 1v3"/></svg>19 août 2024</span>
+              <h3 class="tcard-title">Créer un domaine Active Directory respectueux des bonnes pratiques de sécurité</h3>
+              <p class="tcard-desc">Création d&#x27;un domaine durci avec l&#x27;outil libre Hello-My-Dir : GPO, politiques de mots de passe, score PingCastle.</p>
+              <span class="tcard-src">Source : <a href="https://www.it-connect.fr/comment-creer-un-domaine-active-directory-respectueux-des-bonnes-pratiques-de-securite/" target="_blank" rel="noopener">IT-Connect ↗</a></span>
+              <button class="tcard-btn" data-tuto="t10"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3.5C6.5 2.3 4 2 1.5 2.5v10C4 12 6.5 12.3 8 13.5c1.5-1.2 4-1.5 6.5-1V2.5C12 2 9.5 2.3 8 3.5zM8 3.5v10"/></svg>Mon analyse <span>›</span></button>
+            </div>
+          </article>
+          <article class="tcard" data-tcat="securite">
+            <div class="tcard-img">
+              <img src="assets/img/tutos/pingcastle.jpg" width="1200" height="800" alt="" loading="lazy">
+              <span class="tcard-cat">Sécurité</span>
+              <span class="tcard-note">Illustration</span>
+            </div>
+            <div class="tcard-body">
+              <span class="tcard-date"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1.5" y="2.5" width="13" height="12" rx="1.5"/><path d="M1.5 6h13M5 1v3M11 1v3"/></svg>18 juil. 2022</span>
+              <h3 class="tcard-title">Audit Active Directory avec PingCastle : comment bien débuter ?</h3>
+              <p class="tcard-desc">Lancer un audit gratuit de son propre AD, lire le score sur 100 et corriger les points faibles les plus courants.</p>
+              <span class="tcard-src">Source : <a href="https://www.it-connect.fr/comment-auditer-lactive-directory-avec-pingcastle/" target="_blank" rel="noopener">IT-Connect ↗</a></span>
+              <button class="tcard-btn" data-tuto="t11"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3.5C6.5 2.3 4 2 1.5 2.5v10C4 12 6.5 12.3 8 13.5c1.5-1.2 4-1.5 6.5-1V2.5C12 2 9.5 2.3 8 3.5zM8 3.5v10"/></svg>Mon analyse <span>›</span></button>
+            </div>
+          </article>
+          <article class="tcard" data-tcat="reseau">
+            <div class="tcard-img">
+              <img src="assets/img/glpi/vmnet.jpg" width="603" height="557" alt="" loading="lazy">
+              <span class="tcard-cat">Réseau & virtualisation</span>
+              <span class="tcard-note">Capture de mon projet</span>
+            </div>
+            <div class="tcard-body">
+              <span class="tcard-date"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1.5" y="2.5" width="13" height="12" rx="1.5"/><path d="M1.5 6h13M5 1v3M11 1v3"/></svg>10 avr. 2023</span>
+              <h3 class="tcard-title">Comprendre les différents types de réseaux de VMware Workstation Pro</h3>
+              <p class="tcard-desc">NAT, Bridged, Host-only, LAN Segment et Custom : ce que chaque mode permet entre la VM, l&#x27;hôte et Internet.</p>
+              <span class="tcard-src">Source : <a href="https://www.it-connect.fr/comprendre-les-differents-types-de-reseaux-de-vmware-workstation-pro/" target="_blank" rel="noopener">IT-Connect ↗</a></span>
+              <button class="tcard-btn" data-tuto="t12"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3.5C6.5 2.3 4 2 1.5 2.5v10C4 12 6.5 12.3 8 13.5c1.5-1.2 4-1.5 6.5-1V2.5C12 2 9.5 2.3 8 3.5zM8 3.5v10"/></svg>Mon analyse <span>›</span></button>
+            </div>
+          </article>
+          <article class="tcard" data-tcat="reseau">
+            <div class="tcard-img">
+              <img src="assets/img/glpi/interfaces.jpg" width="1284" height="913" alt="" loading="lazy">
+              <span class="tcard-cat">Réseau & virtualisation</span>
+              <span class="tcard-note">Capture de mon projet</span>
+            </div>
+            <div class="tcard-body">
+              <span class="tcard-date"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1.5" y="2.5" width="13" height="12" rx="1.5"/><path d="M1.5 6h13M5 1v3M11 1v3"/></svg>18 mars 2022</span>
+              <h3 class="tcard-title">Comment configurer une adresse IP fixe sur Debian 13 ?</h3>
+              <p class="tcard-desc">Passer une interface de DHCP à une IP statique dans /etc/network/interfaces, vérifier passerelle et DNS.</p>
+              <span class="tcard-src">Source : <a href="https://www.it-connect.fr/comment-configurer-une-adresse-ip-fixe-sur-debian-11/" target="_blank" rel="noopener">IT-Connect ↗</a></span>
+              <button class="tcard-btn" data-tuto="t13"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 3.5C6.5 2.3 4 2 1.5 2.5v10C4 12 6.5 12.3 8 13.5c1.5-1.2 4-1.5 6.5-1V2.5C12 2 9.5 2.3 8 3.5zM8 3.5v10"/></svg>Mon analyse <span>›</span></button>
+            </div>
+          </article>
+        </div>
+        <div class="tcar-progress"><i id="tcar-bar"></i></div>
+      </div>
+    </section>
+
+    <!-- ===== CV & Lettre ===== -->
+    <section id="documents" class="section">
+      <header class="sec-head">
+        <div class="sec-meta"><span class="sec-index">(08)</span><span class="sec-label">CV & lettre de motivation</span></div>
+        <h2 class="giant" data-split aria-label="CV & lettre de motivation"><span class="line">CV &</span><span class="line indent">—LETTRE</span></h2>
+      </header>
+      <div class="docs-grid">
+        <a href="cv.html" class="doc-card reveal" data-cursor="Ouvrir">
+          <div class="doc-icon">📄</div>
+          <h3>Curriculum Vitae</h3>
+          <p>Mon parcours, mes compétences et mon expérience en une page. Imprimable en PDF.</p>
+          <span class="btn btn-primary">Ouvrir le CV ↗</span>
+        </a>
+        <a href="lettre.html" class="doc-card reveal" data-cursor="Ouvrir">
+          <div class="doc-icon">✉️</div>
+          <h3>Lettre de motivation</h3>
+          <p>Ma candidature pour un stage en informatique. Imprimable en PDF.</p>
+          <span class="btn btn-primary">Ouvrir la lettre ↗</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="section contact">
+      <header class="sec-head">
+        <div class="sec-meta"><span class="sec-index">(09)</span><span class="sec-label">Me contacter</span></div>
+        <h2 class="giant" data-split aria-label="Me contacter"><span class="line">CON</span><span class="line indent">—TACT</span></h2>
+      </header>
+      <p class="contact-text reveal">
+        Je recherche un <strong>stage du 5 novembre au 9 décembre 2026</strong>. Une question, une proposition ?
+        N'hésitez pas à m'écrire, je réponds rapidement !
+      </p>
+      <div class="contact-links reveal">
+        <div class="contact-card">
+          <a href="mailto:siojules3@gmail.com">siojules3@gmail.com</a>
+          <button class="copy-btn" data-copy="siojules3@gmail.com" aria-label="Copier">Copier</button>
+        </div>
+        <div class="contact-card">
+          <a href="mailto:juliardinjacquinot@gmail.com">juliardinjacquinot@gmail.com</a>
+          <button class="copy-btn" data-copy="juliardinjacquinot@gmail.com" aria-label="Copier">Copier</button>
+        </div>
+        <div class="contact-card">
+          <a href="tel:+262692452698">0692 45 26 98</a>
+          <button class="copy-btn" data-copy="0692 45 26 98" aria-label="Copier">Copier</button>
+        </div>
+      </div>
+      <p class="copied" id="copied">Copié ✔</p>
+      <div class="site-qr reveal" id="site-qr" hidden>
+        <div class="qr" id="site-qr-img"></div>
+        <p>Scannez pour ouvrir ce portfolio sur téléphone</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-big">Juliardin<em>®</em></div>
+    <div class="footer-row"><span>Conçu et codé par Juliardin Jacquinot RAKOTONIAINA</span><span>BTS SIO · Lycée Bamana, Mayotte</span><span>© <span id="year"></span></span></div>
+  </footer>
+
+  <!-- ===== Fenêtre détail projet ===== -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close" id="modal-close" aria-label="Fermer">Fermer ✕</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <button class="to-top" id="to-top" aria-label="Revenir en haut">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><circle class="ring-bg" cx="32" cy="32" r="30"/><circle class="ring" id="to-top-ring" cx="32" cy="32" r="30"/></svg>
+    <span>↑</span>
+  </button>
+
+  <script src="assets/js/lenis.min.js"></script>
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/qrcode.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

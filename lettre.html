@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lettre de motivation — Juliardin Jacquinot RAKOTONIAINA · BTS SIO</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/docs.css">
+</head>
+<body>
+  <div class="toolbar">
+    <a href="index.html">← Retour au portfolio</a>
+    <button onclick="window.print()">🖨️ Télécharger en PDF</button>
+  </div>
+
+  <p class="hint">✏️ Remplace les textes en orange (entreprise, destinataire…) dans <code>lettre.html</code> pour chaque candidature.</p>
+
+  <div class="page">
+    <div class="letter-bar"></div>
+    <div class="letter">
+      <div class="letter-head">
+        <div class="me">
+          <strong>Juliardin Jacquinot RAKOTONIAINA</strong>
+          Étudiant en BTS SIO 2 — option SISR<br>
+          Lycée Bamana — Mayotte<br>
+          siojules3@gmail.com<br>
+          juliardinjacquinot@gmail.com<br>
+          0692 45 26 98
+        </div>
+        <div class="to">
+          <strong class="todo">[Nom de l'entreprise]</strong><br>
+          <span class="todo">[Service / Nom du responsable]</span><br>
+          <span class="todo">[Adresse]</span><br>
+          <span class="todo">[Code postal, Ville]</span>
+        </div>
+      </div>
+
+      <p class="date">Mayotte, le <span id="today"></span></p>
+
+      <p class="object">Objet : <span>Candidature pour un stage en informatique — BTS SIO 2ème année</span></p>
+
+      <p>Madame, Monsieur,</p>
+
+      <p>
+        Actuellement étudiant en deuxième année de BTS Services Informatiques aux Organisations, option SISR, au
+        Lycée Bamana de Mayotte, je suis à la recherche d'un stage
+        de 5 semaines, du 5 novembre au 9 décembre 2026. C'est avec un grand intérêt que je vous
+        adresse ma candidature, car <span class="todo">[votre entreprise / votre service informatique]</span>
+        correspond pleinement au domaine dans lequel je souhaite progresser.
+      </p>
+
+      <p>
+        Lors de mon précédent stage au Collège de Majicavo Lamir (mai – juin 2026), j'ai eu l'occasion de mener un projet concret : installer un poste
+        sous <strong>Linux</strong> et y configurer une <strong>machine virtuelle Windows 10 avec VMware</strong>,
+        lancée automatiquement en plein écran au démarrage. L'utilisateur travaillait ainsi dans un environnement
+        Windows familier, tout en profitant d'une machine sous Linux. Cette expérience m'a appris à analyser
+        un besoin, à mettre en place une solution technique et à la rendre transparente pour l'utilisateur final.
+      </p>
+
+      <p>
+        Passionné par le matériel et les systèmes, j'ai également l'habitude de diagnostiquer et de résoudre
+        des problèmes informatiques de manière méthodique : mise à jour de pilotes, paramétrage de logiciels,
+        tests successifs jusqu'à la résolution. J'ai aussi conçu <strong>EduLaunch</strong>, un lanceur d'applications éducatives en Python (Flask) et JavaScript : il remplace le bureau Windows des élèves par une interface organisée par matière, avec des accès sécurisés pour les élèves, les professeurs et les administrateurs. En atelier professionnel, j'ai déployé un domaine Active Directory et un GLPI 11 sous Debian relié à l'annuaire en LDAP, en diagnostiquant chaque incident rencontré.
+      </p>
+
+      <p>
+        Sérieux, curieux et autonome, je souhaite intégrer votre équipe pour découvrir votre environnement
+        de travail, participer aux missions du quotidien et continuer à développer mes compétences à vos côtés.
+        Vous trouverez mon CV ainsi que mes projets sur mon portfolio.
+      </p>
+
+      <p>
+        Je me tiens à votre disposition pour un entretien afin de vous présenter ma motivation plus en détail.
+        Dans l'attente de votre réponse, je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations
+        distinguées.
+      </p>
+
+      <div class="sign">
+        <strong>Juliardin Jacquinot RAKOTONIAINA</strong>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('today').textContent =
+      new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
+  </script>
+</body>
+</html>
